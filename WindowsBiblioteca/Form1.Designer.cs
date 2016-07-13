@@ -68,10 +68,10 @@
             this.tableLayoutPanel1.Controls.Add(this.txtCodigo, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtNombre, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.txtApellido, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.dtpFNacimiento, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.btnAgregar, 0, 5);
             this.tableLayoutPanel1.Controls.Add(this.btnCerrar, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.cboNacionalidad, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.dtpFNacimiento, 1, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 37);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -180,6 +180,7 @@
             this.btnAgregar.TabIndex = 9;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnCerrar
             // 
@@ -195,6 +196,7 @@
             // cboNacionalidad
             // 
             this.cboNacionalidad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cboNacionalidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboNacionalidad.FormattingEnabled = true;
             this.cboNacionalidad.Items.AddRange(new object[] {
             "Afganistan",
@@ -421,8 +423,10 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.btnAgregar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnCerrar;
             this.ClientSize = new System.Drawing.Size(435, 323);
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);

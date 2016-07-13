@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Logica
 {
-    class Autor
+    public static class Autor
     {
         // Methods
 
         // TODO improve this calculation
-        public int CalcularEdad(Entidades.Autor autor)
+        public static int CalcularEdad(Entidades.Autor autor)
         {
             int edad = 0;
 
@@ -27,7 +27,7 @@ namespace Logica
         /// </summary>
         /// <param name="autores">Generic list of autor"</param>
         /// <param name="autor">Autor to add to the list</param>
-        public void Agregar(List<Entidades.Autor> autores, Entidades.Autor autor)
+        public static void Agregar(List<Entidades.Autor> autores, Entidades.Autor autor)
         {
             autores.Add(autor);
         }
