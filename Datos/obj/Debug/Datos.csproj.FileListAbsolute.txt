@@ -1,0 +1,7 @@
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\bin\Debug\Datos.dll
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\bin\Debug\Datos.pdb
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\bin\Debug\Entidades.dll
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\bin\Debug\Entidades.pdb
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\obj\Debug\Datos.dll
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\Datos\obj\Debug\Datos.pdb

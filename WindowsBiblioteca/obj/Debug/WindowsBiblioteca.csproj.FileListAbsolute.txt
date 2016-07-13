@@ -1,0 +1,13 @@
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\WindowsBiblioteca.exe.config
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\WindowsBiblioteca.exe
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\WindowsBiblioteca.pdb
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\Entidades.dll
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\Logica.dll
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\Entidades.pdb
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\bin\Debug\Logica.pdb
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.csprojResolveAssemblyReference.cache
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.Form1.resources
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.Properties.Resources.resources
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.csproj.GenerateResource.Cache
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.exe
+c:\users\alumno\documents\visual studio 2015\Projects\Biblioteca\WindowsBiblioteca\obj\Debug\WindowsBiblioteca.pdb
