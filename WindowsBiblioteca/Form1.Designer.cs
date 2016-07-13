@@ -38,11 +38,15 @@
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtApellido = new System.Windows.Forms.TextBox();
-            this.dtpFNacimiento = new System.Windows.Forms.DateTimePicker();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.cboNacionalidad = new System.Windows.Forms.ComboBox();
+            this.dtpFNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.lblEdad = new System.Windows.Forms.Label();
+            this.dgvLista = new System.Windows.Forms.DataGridView();
+            this.btnLista = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -163,14 +167,6 @@
             this.txtApellido.Size = new System.Drawing.Size(200, 20);
             this.txtApellido.TabIndex = 7;
             // 
-            // dtpFNacimiento
-            // 
-            this.dtpFNacimiento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpFNacimiento.Location = new System.Drawing.Point(208, 147);
-            this.dtpFNacimiento.Name = "dtpFNacimiento";
-            this.dtpFNacimiento.Size = new System.Drawing.Size(200, 20);
-            this.dtpFNacimiento.TabIndex = 8;
-            // 
             // btnAgregar
             // 
             this.btnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -185,6 +181,7 @@
             // btnCerrar
             // 
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCerrar.Location = new System.Drawing.Point(208, 238);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(200, 23);
@@ -421,20 +418,58 @@
             this.cboNacionalidad.Size = new System.Drawing.Size(200, 21);
             this.cboNacionalidad.TabIndex = 12;
             // 
+            // dtpFNacimiento
+            // 
+            this.dtpFNacimiento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtpFNacimiento.Location = new System.Drawing.Point(208, 147);
+            this.dtpFNacimiento.Name = "dtpFNacimiento";
+            this.dtpFNacimiento.Size = new System.Drawing.Size(200, 20);
+            this.dtpFNacimiento.TabIndex = 8;
+            // 
+            // lblEdad
+            // 
+            this.lblEdad.AutoSize = true;
+            this.lblEdad.Location = new System.Drawing.Point(15, 318);
+            this.lblEdad.Name = "lblEdad";
+            this.lblEdad.Size = new System.Drawing.Size(0, 13);
+            this.lblEdad.TabIndex = 2;
+            // 
+            // dgvLista
+            // 
+            this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvLista.Location = new System.Drawing.Point(12, 340);
+            this.dgvLista.Name = "dgvLista";
+            this.dgvLista.Size = new System.Drawing.Size(408, 150);
+            this.dgvLista.TabIndex = 4;
+            // 
+            // btnLista
+            // 
+            this.btnLista.Location = new System.Drawing.Point(183, 313);
+            this.btnLista.Name = "btnLista";
+            this.btnLista.Size = new System.Drawing.Size(75, 23);
+            this.btnLista.TabIndex = 5;
+            this.btnLista.Text = "Lista";
+            this.btnLista.UseVisualStyleBackColor = true;
+            this.btnLista.Click += new System.EventHandler(this.btnLista_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnAgregar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCerrar;
-            this.ClientSize = new System.Drawing.Size(435, 323);
+            this.ClientSize = new System.Drawing.Size(435, 491);
             this.ControlBox = false;
+            this.Controls.Add(this.btnLista);
+            this.Controls.Add(this.dgvLista);
+            this.Controls.Add(this.lblEdad);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblTitulo);
             this.Name = "Form1";
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -456,6 +491,9 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.ComboBox cboNacionalidad;
+        private System.Windows.Forms.Label lblEdad;
+        private System.Windows.Forms.DataGridView dgvLista;
+        private System.Windows.Forms.Button btnLista;
     }
 }
 

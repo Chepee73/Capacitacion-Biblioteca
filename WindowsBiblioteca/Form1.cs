@@ -32,7 +32,14 @@ namespace WindowsBiblioteca
             Logica.Autor.Agregar(autores, autor);
 
             MessageBox.Show("Autor Agregado");
-            
+
+            lblEdad.Text = "Edad: " + Logica.Autor.CalcularEdad(autor);
+        }
+
+        private void btnLista_Click(object sender, EventArgs e)
+        {
+            dgvLista.DataSource = null;
+            dgvLista.DataSource = autores;
         }
     }
 }
